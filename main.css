@@ -1,0 +1,271 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements{
+    display: flex;
+    background-color: #d8e8e3;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.announcements span{
+     padding-top: 3.2rem;
+     padding-bottom: 3.2rem;
+     max-width: 50%; 
+     text-align: center;
+     font-size: 19px;
+     line-height: 1.75; /* distance between two lines of text */
+     font-weight: 500;
+}
+
+.announcements span a:hover{
+    text-decoration: none;
+}
+
+.rewards-left-right-section{
+    display: flex;
+    margin-bottom: 32px;                                                                                           
+}                                                               /*Cloned by Prajjawal Kushwaha*/
+.text{
+        width:50%;
+        
+        display: flex;
+        flex: 1;   /*this line basically fills in the remaining spaces*/
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1f8f6;
+        color: #1e3932;
+    
+}
+
+.text h1{
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.text h3{
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-size: 19px;
+}
+
+.image{
+    width: 50%;
+    /*height: 420px;*/
+    display: flex;
+    flex: 1;
+}
+
+.image img{
+    width: 100%;
+}
+
+.text .cta{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease;
+    
+}
+ 
+.text .cta:hover{
+    background-color: rgba(30,57,50,.1);
+    
+}
+
+.chill{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.chill .photo{
+    width: 50%;
+    /*height: 625px;*/
+    display: flex;
+    flex:1;
+}
+
+.chill .photo img{
+    width: 100%;
+}
+
+.chill .message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f0eb;
+    color: #1e3932;
+    flex: 1;
+}
+
+.chill .message h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 70%;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+
+
+.chill .message h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+    line-height: 36px;
+    max-width: 90%;
+
+}
+
+.message .cta{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.message .cta:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+.main-container section{
+    display: flex;
+}
+
+.top-bottom-section{
+    width: 50%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container .photo{
+    width: 100%;
+}
+
+.section-container .photo img{
+    width: 100%;
+    display: flex;
+}
+
+.section-container .message{
+    display: flex;
+    flex-grow: 1;  /*this will increase the minty bg color of right hand side text box of top-bottom-container */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4e9e2;
+    color: #1e3932;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 8px;
+
+
+}
+
+.section-container .message h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.section-container .message h3{
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 400;
+
+}
+
+.top-bottom-section:first-child{
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child{
+    margin-left: 16px;
+}
+
+
+.celebration{
+    margin-bottom: 32px;
+}
+
+.celebration .text{
+    width: 50%;
+    display: flex;
+    flex: 1 ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #d4e9e2;
+}
+
+
+.celebration .text h3{
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.restrictions{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.restrictions p a:hover{
+    text-decoration: none;
+
+}
+
+.terms-conditions{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    margin-bottom: 32px;
+   
+   
+    
+    
+}
+
+.terms-conditions span{
+    max-width: 50%;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+}
+
